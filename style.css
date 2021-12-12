@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* ====== navbar secsion ====== */
+
+.logo{
+    width: 150px;
+    padding-left: 20px;
+}
+.my-style{
+    box-shadow: 0 5px 10px #b4b4b4;
+}
+.ul-style{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    justify-content: center;
+}
+.costom a img{
+    width: 250px;
+    height: 250px;
+}
+.costom{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.slider{
+    position: relative;
+}
+.category{
+    position: absolute;
+    bottom: -100px;
+    left: 9%;
+
+}
+.costom h2 {
+    color: #fff;
+}
+.product{
+    padding: 30px 0px;
+    box-shadow: #b4b4b4;
+}
+
+.footer{
+    background-image: url(./img/cover.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30rem;
+    position: relative;
+}
+.footer-content ul li{
+list-style: none;
+}
+.footer-content ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.footer-content ul li a:hover{
+    color: crimson;
+}
+.content{
+    position: absolute;
+    top: 40%;
+    left: 9%;
+}
+/* ====== navbar secsion end ====== */
